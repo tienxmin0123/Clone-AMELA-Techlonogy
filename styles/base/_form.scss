@@ -1,6 +1,6 @@
 %btn,
 .btn {
-  @include roboto;
+  @include lexend;
   appearance: none;
   background-image: none;
   border-radius: 0;
@@ -39,7 +39,7 @@ input[type='submit'] {
 }
 
 %form-text {
-  @include roboto;
+  @include lexend;
   appearance: none;
   background-color: $silver;
   border-radius: 0;
@@ -198,7 +198,7 @@ select {
   text-overflow: "---";
   border: 0;
   border-radius: 0;
-  font-family: inherit;
+  font-family: 'Lexend', sans-serif;
 
   &::-ms-expand{
     display: none;
