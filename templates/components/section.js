@@ -8,7 +8,7 @@ export default function Section({ data }) {
             <span className="section__span">{subTitle}</span>
             <h2 className="section__title">{title}</h2>
             <p className="section__description">{description}</p>
-            <a className="section__btn" href={btn.url}>
+            <a className="btn section__btn" href={btn.url}>
               {btn.title}
             </a>
           </div>

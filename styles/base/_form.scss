@@ -1,35 +1,24 @@
 %btn,
 .btn {
   @include lexend;
-  appearance: none;
-  background-image: none;
-  border-radius: 0;
-  border: rem(1px) solid $btn-color;
-  box-shadow: none;
   display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  text-transform: uppercase;
-  font-size: 14px;
-  line-height: 1;
-  min-width: rem(300px);
-  height: rem(60px);
-  outline: none;
-  padding: rem(15px 30px);
-  text-align: center;
-  text-shadow: none;
-  transition: all .3s ease;
-  background-color: $btn-color;
-  color: $white;
-  cursor: pointer;
-  outline: 0;
-  border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+    background-color: $orange;
+    color: $white;
+    font-size: 18px;
+    line-height: 23px;
+    font-weight: 600;
+    border-radius: 30px;
+    min-width: 300px;
+    height: 60px;
+    box-shadow: inset 0px 0px 0px $black-gray;
+    transition: all 0.5s !important;
 
   &:active,
   &:hover {
-    background-color: $black-gray;
-    border-color: $black-gray;
-    color: $white;
+    background-color: transparent !important;
+    box-shadow: inset 390px 0px 0px $black-gray;
   }
 }
 

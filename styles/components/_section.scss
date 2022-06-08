@@ -45,26 +45,6 @@
     line-height: 28px;
     color: $white;
   }
-
-  &__btn {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    background-color: $orange;
-    color: $white;
-    font-size: 18px;
-    line-height: 23px;
-    font-weight: 600;
-    border-radius: 30px;
-    min-width: 300px;
-    height: 60px;
-    box-shadow: inset 0px 0px 0px $black-gray;
-    transition: all 0.5s !important;
-  }
-  &__btn:hover {
-    background-color: transparent !important;
-    box-shadow: inset 390px 0px 0px $black-gray;
-  }
   @media (max-width: $desktopSupperWide) {
     height: 570px;
     &__content {
