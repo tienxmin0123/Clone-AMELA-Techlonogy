@@ -22,8 +22,11 @@
 @import 'base/table';
 
 // Layouts
+@import 'layouts/main';
 @import 'layouts/header';
 @import 'layouts/footer';
 
 //Components
 @import './components/section';
+@import './components/solution';
+
