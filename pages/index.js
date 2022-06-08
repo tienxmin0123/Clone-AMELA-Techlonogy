@@ -3,10 +3,13 @@ import Head from "next/head";
 //import components
 import Section from "../templates/components/section";
 import Solution from "../templates/components/solution";
+// import Technology from "../templates/components/technology";
 
 // import Data
 import { dataProject } from "../api-data/components/project";
 import { dataSolution } from "../api-data/components/data-solution";
+import { dataTechnology } from "../api-data/components/data-technology";
+
 
 export default function Home() {
   return (
@@ -20,6 +23,7 @@ export default function Home() {
         <div className="main">
           <Section data={dataProject} />
           <Solution data={dataSolution} />
+          <Solution data={dataTechnology} />
         </div>
       </div>
     </main>

@@ -1,4 +1,5 @@
 export const dataSolution = {
+  componentName : 'solution',
   title : 'Cung cấp dịch vụ',
   titleGradient : 'giải pháp',
   listItem : [
@@ -21,7 +22,7 @@ export const dataSolution = {
       title : 'E-learning',
       imgUrl : '/assets/images/solution3.png',
       desc : 'AMELA tư vấn, xây dựng và vận hành hệ thống giáo dục điện tử tối ưu cho hoạt động kinh doanh của khách hàng, bao gồm tư vấn và thiết kế các giao diện học tập chú trọng đến UX của người học, thiết kế hệ thống quản lý học tập (LMS) giúp hợp lý hóa công việc quản lý. ',
-      marginTop: '',
+      marginTop: '0',
     },
     {
       id : 4,
