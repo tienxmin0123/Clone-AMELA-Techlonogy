@@ -3,12 +3,14 @@ import Head from "next/head";
 //import components
 import Section from "../templates/components/section";
 import Solution from "../templates/components/solution";
-// import Technology from "../templates/components/technology";
+import Banner from "../templates/components/banner";
+
 
 // import Data
 import { dataProject } from "../api-data/components/project";
 import { dataSolution } from "../api-data/components/data-solution";
 import { dataTechnology } from "../api-data/components/data-technology";
+import { dataBanner } from "../api-data/components/data-banner";
 
 
 export default function Home() {
@@ -21,9 +23,10 @@ export default function Home() {
           <link rel="icon" href="/favicon.ico" />
         </Head>
         <div className="main">
-          <Section data={dataProject} />
+          <Banner data = {dataBanner} />
           <Solution data={dataSolution} />
           <Solution data={dataTechnology} />
+          <Section data={dataProject} />
         </div>
       </div>
     </main>
