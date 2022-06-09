@@ -1,16 +1,18 @@
 import Head from "next/head";
 
 //import components
-import Section from "../templates/components/section";
 import Solution from "../templates/components/solution";
 import Banner from "../templates/components/banner";
+import AdvanceMedia from "../templates/components/advance-media";
+import Section from "../templates/components/section";
 
 
 // import Data
-import { dataProject } from "../api-data/components/project";
 import { dataSolution } from "../api-data/components/data-solution";
 import { dataTechnology } from "../api-data/components/data-technology";
 import { dataBanner } from "../api-data/components/data-banner";
+import { dataAdvanceMedia } from "../api-data/components/data-advance-media";
+import { dataProject } from "../api-data/components/project";
 
 
 export default function Home() {
@@ -24,6 +26,7 @@ export default function Home() {
         </Head>
         <div className="main">
           <Banner data = {dataBanner} />
+          <AdvanceMedia data = {dataAdvanceMedia} />
           <Solution data={dataSolution} />
           <Solution data={dataTechnology} />
           <Section data={dataProject} />
