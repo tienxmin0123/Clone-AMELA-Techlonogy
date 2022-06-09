@@ -13,11 +13,10 @@
   &__list {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     width: 100%;
-    margin: 0 -15px;
   }
   &__item {
-    margin: 0 15px;
     width: calc((100% / 4) - 30px);
     color: $white;
     &-number {

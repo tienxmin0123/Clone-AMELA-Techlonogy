@@ -1,6 +1,5 @@
 // Grid variables
 $containerMarginMobile: 20px;
-$containerMarginTablet: 40px;
 $container: 960px;
 $containerWide: 1140px;
 $containerSuperWide: 1280px;
@@ -12,8 +11,8 @@ $containerMediumWide: 1224px;
   margin-right: $containerMarginMobile;
 
   @media (min-width: $tablet) {
-    margin-left: $containerMarginTablet;
-    margin-right: $containerMarginTablet;
+    margin-left: $containerMarginMobile;
+    margin-right: $containerMarginMobile;
   }
 
   @media (min-width: $desktop) {
