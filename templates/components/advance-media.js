@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import { BsArrowRight } from "react-icons/bs";
+import { MdArrowRightAlt } from 'react-icons/md';
 export default function AdvanceMedia({ data }) {
   return (
     <div className="advance-media">
@@ -40,7 +40,6 @@ export default function AdvanceMedia({ data }) {
                         )}
                       </div>
                     ))}
-                    {/* {title} */}
                   </div>
                   <div className="advance-media__statistics">
                     {statistics.map((item) => {
@@ -70,7 +69,7 @@ export default function AdvanceMedia({ data }) {
                       <a href="#">
                         {link}{" "}
                         <i>
-                          <BsArrowRight />
+                          <MdArrowRightAlt />
                         </i>
                       </a>
                     </div>

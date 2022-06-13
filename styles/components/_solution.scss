@@ -4,11 +4,6 @@
     flex-direction: column;
     color: #fff;
     margin-bottom: -40px;
-    span {
-      background: -webkit-linear-gradient(45deg, #fea628, #76187e 90%);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-    }
   }
   &__list {
     display: flex;

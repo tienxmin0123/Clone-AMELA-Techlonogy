@@ -16,7 +16,7 @@
       margin: 4.5px 0;
       &-title {
         position: relative;
-        padding: 43px 0 0 30px;
+        padding: 43px 10px 0 30px;
         color: $white;
         z-index: 10;
       }
@@ -72,7 +72,7 @@
       font-weight: 600;
       line-height: 52px;
       text-transform: uppercase;
-      &:hover{
+      &:hover {
         color: $primary-color;
       }
       & .btn-play {
@@ -133,6 +133,9 @@
       &-item {
         margin: 0;
         width: calc(100% / 2);
+        &-title {
+          padding: 40px;
+        }
       }
     }
   }

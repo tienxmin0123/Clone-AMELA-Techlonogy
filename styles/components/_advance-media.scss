@@ -113,19 +113,24 @@
   }
   &__link {
     a {
-      position: relative;
+      display : flex;
+      align-items: center;
       color: #fff;
       font-size: 18px;
       line-height: 23px;
       text-decoration: underline;
       &:hover i {
-        transform: translateX(100%);
+        transform: translateX(50%);
       }
       i {
-        position: absolute;
+        display: flex;
+        align-items: center;
         top: 4px;
         margin-left: 8px;
         transition: all 0.3s ease-in-out;
+        svg{
+          font-size: 35px;
+        }
       }
     }
   }

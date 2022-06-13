@@ -10,7 +10,7 @@ export default function edu({ data }) {
             return (
               <div
                 className="edu__sub-content-item"
-                style={{ backgroundColor: bgColor }}
+                style={{backgroundColor: bgColor }}
                 key={id}
               >
                 <a href={linkBtn} className="edu__content-link">

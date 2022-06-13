@@ -9,7 +9,7 @@ export default function Solution({ data }) {
       <div className="container">
         <h2 className="solution__title">
           {title}
-          <span className="solution__title-gradient">{titleGradient}</span>
+          <span className="solution__title-gradient title-gradient">{titleGradient}</span>
         </h2>
         <div className="solution__list">
           {listItem.map((item) => {
