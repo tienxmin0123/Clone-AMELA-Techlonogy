@@ -1,6 +1,3 @@
-// Import library video
-import ReactPlayer from 'react-player'
-
 export default function Banner({ data }) {
   const { title, desc, urlVideoBackground } = data;
   return (

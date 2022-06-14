@@ -9,13 +9,13 @@ export const dataEdu = {
       id: "1",
       title: "Phát triển chuyên môn và kỹ năng mềm",
       bgUrl: "assets/images/bg-edu-item.png",
-      bgColor : '#A87AB9;'
+      bgColor : '#A87AB9'
     },
     {
       id: "2",
       title: "Đào tạo văn hóa của người AMELA",
       bgUrl: "assets/images/bg-edu-item2.png",
-      bgColor : '#92E3A9;'
+      bgColor : '#92E3A9'
     },
   ],
 };
