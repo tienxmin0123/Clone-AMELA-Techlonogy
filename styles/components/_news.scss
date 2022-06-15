@@ -109,10 +109,13 @@
 }
 @media (max-width: 1000px) {
   .news {
+    &__list{
+      margin: 0;
+    }
     &__item {
       width: calc(50% - 30px);
       &-content {
-        min-height: 20%;
+        min-height: 15%;
       }
     }
   }

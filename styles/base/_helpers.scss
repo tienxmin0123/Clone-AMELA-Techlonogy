@@ -49,6 +49,22 @@
 }
 
 // Active item
-.active{
+.active {
   display: block !important;
+}
+
+// Custom slicks
+
+element.style {
+  width: 1140px;
+  opacity: 1;
+  transform: translate3d(0px, 0px, 0px);
+}
+.slick-track {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.slick-slide {
+  width: calc(228px - 30px) !important;
 }

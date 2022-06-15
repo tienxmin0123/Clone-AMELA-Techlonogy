@@ -8,6 +8,7 @@ $containerMediumWide: 1224px;
 .container {
   max-width: 100%;
   margin: 0 auto;
+  padding :0 $containerMarginMobile;
   @media (min-width: $tabletOnly) {
     max-width: $container;
   }

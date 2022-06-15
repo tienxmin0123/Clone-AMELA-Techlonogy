@@ -212,12 +212,17 @@
 }
 @media (max-width: 990px) {
   .header {
+    z-index: 100;
+    .container{
+      padding: 0;
+    }
     background: $black;
     &__content {
-      border-bottom: 1px solid #707070;
+      position: relative;
       padding: 20px 0;
       height: 65px;
       justify-content: space-around;
+      border-bottom: 1px solid #707070;
     }
     &__logo {
       &-icon {

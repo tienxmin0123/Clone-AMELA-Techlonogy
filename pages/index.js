@@ -2,6 +2,7 @@ import Head from "next/head";
 
 // Import layout
 import Header from "../templates/layout/header";
+import Footer from "../templates/layout/footer";
 
 //import components
 import Solution from "../templates/components/solution";
@@ -14,6 +15,7 @@ import News from "../templates/components/news";
 
 // import Data
 import { dataHeader } from "../api-data/layout/header";
+import { dataFooter } from "../api-data/layout/footer";
 import { dataSolution } from "../api-data/components/data-solution";
 import { dataTechnology } from "../api-data/components/data-technology";
 import { dataBanner } from "../api-data/components/data-banner";
@@ -43,6 +45,7 @@ export default function Home() {
           <Section data={dataProject} />
           <News data={dataNews} />
         </div>
+        <Footer data = {dataFooter} />
       </div>
     </main>
   );
